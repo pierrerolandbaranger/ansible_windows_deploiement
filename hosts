@@ -1,0 +1,10 @@
+[Serveurs_Windows]
+VOTRESERVEUR EXEMPLE WINDOWS2016
+
+[Serveurs_Windows:vars]
+
+ansible_user=VOTREUSER
+ansible_password=VOTREMOTDEPASSE
+ansible_connection=winrm
+ansible_port=5985
+ansible_winrm_transport=kerberos
