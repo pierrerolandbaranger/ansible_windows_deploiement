@@ -2,7 +2,9 @@
 Ansible permet le déploiement des taches sous Windows
 
 # Prerequis 
-# Ajouter Ansible sur votre WSL ou votre linux
+- Ajouter Ansible sur votre WSL ou votre linux
+
+
 
 Quelle commande utiliser pour deployer votre playbook Ansible Windows
 
