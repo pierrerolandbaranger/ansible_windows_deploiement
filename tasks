@@ -1,0 +1,13 @@
+---
+- hosts: all
+  tasks:
+    - name: Ping module for Windows
+      win_ping:
+#    - name: PowerShell for Windows Creation du fichier Test Ansible
+#      ansible.windows.win_powershell:
+#        script: |
+#          New-Item -Path 'C:\TEMP\Test_Ansible.txt' -ItemType File
+    - name: PowerShell for Windows Suppression du fichier Test Ansible
+      ansible.windows.win_powershell:
+        script: |
+          Remove-item C:\TEMP\Test_Ansible.txt
