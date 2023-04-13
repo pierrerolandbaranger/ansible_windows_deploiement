@@ -8,5 +8,5 @@ Ansible permet le déploiement des taches sous Windows
 
 Quelle commande utiliser pour deployer votre playbook Ansible Windows
 
-`ansible-playbook -i hosts tasks2`
+`ansible-playbook -i hosts tasks`
 
