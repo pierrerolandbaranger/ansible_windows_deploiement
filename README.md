@@ -14,7 +14,7 @@ Quelle commande utiliser pour deployer votre playbook Ansible Windows
 
 
 
-### Link qui vous permettent de tous faire ! ####
+### Les liens qui vous permettent de tous faire ! ####
 
 https://docs.ansible.com/ansible/latest/os_guide/windows_usage.html
 
